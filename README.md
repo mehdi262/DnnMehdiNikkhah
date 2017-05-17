@@ -1,5 +1,7 @@
 # DnnMehdiNikkhah
 This web application is generated as part of my homework for  DnnCorporation. 
+ I used MVC, Web API, EntityFramework codefirst migration, AutoMapper, DTO, Unity, Bootbox, Jquery in this project.
+ I used Repository Pattern, Inversion Injection (Dependency Injection) pattern in this code.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ### Prerequisites
