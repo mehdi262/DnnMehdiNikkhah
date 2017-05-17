@@ -16,9 +16,9 @@ This Approach is for running the web application on your local visual studio in 
   <connectionStrings>
     <add name="DnnMehdiNikkhah" connectionString="Integrated Security=true;Persist Security Info=False;Initial Catalog=DnnMehdiNikkhah;Data Source=.\sqlexpress" providerName="System.Data.SqlClient" />
   </connectionStrings>
-  the above connection string is for connecting in Windows Authentication mode. SET the DataSource by the name of your SQLServer Name:
+ c. the above connection string is for connecting in Windows Authentication mode. SET the DataSource by the name of your SQLServer Name:
      Data Source="myServerName\myInstanceName" ex. .\sqlexpress
-   If you want to connect to in Mixed mode the connection string should be as follows:
-   <connectionStrings>
-    <add name="DnnMehdiNikkhah" connectionString="Persist Security Info=False;User ID=sa;Initial Catalog=DnnMehdiNikkhah;  Password="Your PaasswordData Source=.\sqlexpress" providerName="System.Data.SqlClient" />
-  </connectionStrings>
+ d. If you want to connect to in Mixed mode the connection string should be as follows:
+
+    <add name="DnnMehdiNikkhah" connectionString="Persist Security Info=False;User ID=sa;Initial Catalog=DnnMehdiNikkhah;  Password="Your Paassword" Data Source=.\sqlexpress" providerName="System.Data.SqlClient" />
+  
