@@ -13,9 +13,7 @@ This Approach is for running the web application on your local visual studio in 
 2. Set the connection string:
  a. open the web.config in DnnMehdiNikkhah01/DnnMehdiNikkhah01/ path.
  b. in the configuration tag set the existing connectionString tags as follows or add a new one.
-  
-    <add name="DnnMehdiNikkhah" connectionString="Integrated Security=true;Persist Security Info=False;Initial Catalog=DnnMehdiNikkhah;Data Source=.\sqlexpress" providerName="System.Data.SqlClient" />
- 
+    <add name="DnnMehdiNikkhah" connectionString="Integrated Security=true;Persist Security Info=False;Initial Catalog=DnnMehdiNikkhah;Data Source=.\sqlexpress" providerName="System.Data.SqlClient" /> 
  c. the above connection string is for connecting in Windows Authentication mode. SET the DataSource by the name of your SQLServer Name:
      Data Source="myServerName\myInstanceName" ex. .\sqlexpress
  d. If you want to connect to in Mixed mode the connection string should be as follows:
