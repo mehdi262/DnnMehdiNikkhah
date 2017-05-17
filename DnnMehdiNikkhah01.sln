@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMehdiNikkhah01", "DnnMehdiNikkhah01\DnnMehdiNikkhah01.csproj", "{762ECB87-DE58-4F13-B1C1-4F6C1C18BD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMehdiNikkhah01.Tests", "DnnMehdiNikkhah01.Tests\DnnMehdiNikkhah01.Tests.csproj", "{F788F011-BE09-42FE-B079-5BD7748F0297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMehdiNikkhah01.EntityModel", "DnnMehdiNikkhah01.EntityModel\DnnMehdiNikkhah01.EntityModel.csproj", "{93D95B11-FD32-40FB-928E-FB9D63508667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMehdi.Nikkhah01.Biz", "DnnMehdi.Nikkhah01.Biz\DnnMehdi.Nikkhah01.Biz.csproj", "{5C4AFB9E-E9B9-4687-ACA0-E9C2C8B323D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMehdiNikkhah01.DataAccess", "DnnMehdiNikkhah01.DataAccess\DnnMehdiNikkhah01.DataAccess.csproj", "{A5209877-AB50-4114-B840-4D2EC399F5FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762ECB87-DE58-4F13-B1C1-4F6C1C18BD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762ECB87-DE58-4F13-B1C1-4F6C1C18BD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762ECB87-DE58-4F13-B1C1-4F6C1C18BD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762ECB87-DE58-4F13-B1C1-4F6C1C18BD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F788F011-BE09-42FE-B079-5BD7748F0297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F788F011-BE09-42FE-B079-5BD7748F0297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F788F011-BE09-42FE-B079-5BD7748F0297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F788F011-BE09-42FE-B079-5BD7748F0297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D95B11-FD32-40FB-928E-FB9D63508667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D95B11-FD32-40FB-928E-FB9D63508667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D95B11-FD32-40FB-928E-FB9D63508667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D95B11-FD32-40FB-928E-FB9D63508667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4AFB9E-E9B9-4687-ACA0-E9C2C8B323D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4AFB9E-E9B9-4687-ACA0-E9C2C8B323D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4AFB9E-E9B9-4687-ACA0-E9C2C8B323D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4AFB9E-E9B9-4687-ACA0-E9C2C8B323D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5209877-AB50-4114-B840-4D2EC399F5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5209877-AB50-4114-B840-4D2EC399F5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5209877-AB50-4114-B840-4D2EC399F5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5209877-AB50-4114-B840-4D2EC399F5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
