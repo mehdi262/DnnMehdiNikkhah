@@ -10,13 +10,17 @@ The following application is requiered to run the application and debug and edit
 ### Running
 This Approach is for running the web application on your local visual studio in the debug mode.
 1. download and unzip the projects file (DnnMehdiNikkhah01.zip)
-2. Set the connection string:
- a. open the web.config in DnnMehdiNikkhah01/DnnMehdiNikkhah01/ path.
- b. in the configuration tag set the existing connectionString tags as follows or add a new one.
-    <add name="DnnMehdiNikkhah" connectionString="Integrated Security=true;Persist Security Info=False;Initial Catalog=DnnMehdiNikkhah;Data Source=.\sqlexpress" providerName="System.Data.SqlClient" /> 
- c. the above connection string is for connecting in Windows Authentication mode. SET the DataSource by the name of your SQLServer Name:
+2. open the web.config in DnnMehdiNikkhah01/DnnMehdiNikkhah01/ path.
+3. In the configuration tag, set the existing connectionString tags as follows or add a new one.
+   
+   <add name="DnnMehdiNikkhah" connectionString="Integrated Security=true;Persist Security Info=False;Initial Catalog=DnnMehdiNikkhah;Data Source=.\sqlexpress" providerName="System.Data.SqlClient" /> 
+   
+   
+ the above connection string is for connecting in Windows Authentication mode. SET the DataSource by the name of your SQLServer Name:
+ 
      Data Source="myServerName\myInstanceName" ex. .\sqlexpress
- d. If you want to connect to in Mixed mode the connection string should be as follows:
+     
+  If you want to connect to in Mixed mode the connection string should be as follows:
 
     <add name="DnnMehdiNikkhah" connectionString="Persist Security Info=False;User ID=sa;Initial Catalog=DnnMehdiNikkhah;  Password="Your Paassword" Data Source=.\sqlexpress" providerName="System.Data.SqlClient" />
   
