@@ -9,8 +9,8 @@ The following application is requiered to run the application and debug and edit
 3. Visual Studio 205 or later.
 ### Running
 This Approach is for running the web application on your local visual studio in the debug mode.
-1.download and unzip the projects file (DnnMehdiNikkhah01.zip)
-2.Set the connection string:
+1. download and unzip the projects file (DnnMehdiNikkhah01.zip)
+2. Set the connection string:
  a. open the web.config in DnnMehdiNikkhah01/DnnMehdiNikkhah01/ path.
  b. in the configuration tag set the existing connectionString tags as follows or add a new one.
   <connectionStrings>
